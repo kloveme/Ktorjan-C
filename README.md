@@ -103,8 +103,8 @@ Xingxixi335@gmail.com
 As for the control side, I hope I can make it into a simple C API to tell you all, since the implementation is rather messy.
 
 ### This use video
-
-<video src="use.mp4" alt="Await loading use video"> </video>
+## Demo
+[Click to watch demo](use.mp4)
 
 ### This use pictures
 
