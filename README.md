@@ -103,8 +103,8 @@ Xingxixi335@gmail.com
 As for the control side, I hope I can make it into a simple C API to tell you all, since the implementation is rather messy.
 
 ### This use video
-## Demo
-[Click to watch demo](use.mp4)
+
+<img src="use.gif" alt="Await load Gif">
 
 ### This use pictures
 
