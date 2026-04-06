@@ -107,8 +107,6 @@ You can join my email to tell me.
 ```email
 Xingxixi335@gmail.com
 ```
-### About Kvictim.c API
-As for the control side, I hope I can make it into a simple C API to tell you all, since the implementation is rather messy.
 
 ### This use video
 
